@@ -1,14 +1,16 @@
 """
     Universidad del Valle de Guatemala
-    Teoría de la Computación
-    Profesor: Allan Reyes
+    Análisis de Algoritmos
+    Profesor: Paulo Mejía
 
-    Proyecto 3: Máquina de Turing
-    Descripción: Implementación de una máquina de Turing que verifica si una cadena binaria es un palíndromo.
+    Proyecto 1: Máquina de Turing - Secuencia de Fibonacci
+    Descripción: Implementación de una máquina de Turing que devuelve el valor de la secuencia de Fibonacci dependiendo del valor ingresado.
     Integrantes:
         - Abner Iván García Alegría - 21285
         - Oscar Esteban Donis Martínez - 21610
-        - Adrian Rodriguez Batres - 21691
+        - Astrid Marie Glauser Oliva - 21299
+        - Gonzalo Enrique Santizo vega - 21504
+        - Jose Daniel Gomez Cabrera - 21429
 """
 
 def read_file():
