@@ -132,7 +132,7 @@ def main():
         numCinta += '|'
         i += 1
     # Convertimos la entrada en una cinta con un número definido de blanks
-    blank_number = 50
+    blank_number = 100
     w = list(sim_blanco * blank_number + numCinta + sim_blanco * (blank_number*4))
 
     # Le pasamos los datos de la máquina de turing a la función para ejecutarla
