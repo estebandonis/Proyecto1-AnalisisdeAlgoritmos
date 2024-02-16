@@ -102,7 +102,7 @@ def maquina_turing(estados, alfabeto_entrada, alfabeto_cinta, func_transition, e
                 input_actual -= 1
             # Imprimimos la cinta
             a = w.copy()
-            a[input_actual - 1] = ''.join([c + '\u0332' for c in a[input_actual - 1]])
+            a[input_actual - 1] = '\n'.join(['('+ c + ')' for c in a[input_actual - 1]])
             print(''.join(a))
             print()
 
