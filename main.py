@@ -13,6 +13,8 @@
         - Jose Daniel Gomez Cabrera - 21429
 """
 
+import time
+
 def read_file():
     # Variables para guardar los datos del archivo
     estados = []
@@ -139,4 +141,9 @@ def main():
     maquina_turing(estados, alfabeto_entrada, alfabeto_cinta, func_transition, estado_inicial, sim_blanco, estados_aceptacion, w, blank_number)
     print("Número ingresado: ", input_sequence)
 
-main()
+if __name__ == "__main__":
+    start_time = time.time()  # Start measuring time
+    main()  # Call the main function
+    end_time = time.time()  # Stop measuring time
+    execution_time = end_time - start_time  # Calculate execution time
+    print("Execution time:", execution_time, "seconds")
